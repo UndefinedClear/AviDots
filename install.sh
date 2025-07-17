@@ -66,7 +66,7 @@ rm -rf .oh-my-zsh
 
 cp ~/avidots/zsh/.zshrc ~/
 cp ~/avidots/zsh/.p10k.zsh ~/
-cp -r ~/avidots/zsh/.oh-my-zsh ~/
+# cp -r ~/avidots/zsh/.oh-my-zsh ~/
 
 echo "Installed!"
 
