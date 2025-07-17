@@ -21,7 +21,7 @@ cd .config/
 mkdir waybar
 rm -rf waybar/
 mkdir waybar
-cp -r ~/avidots/.config/waybar/ ~/.config/waybar/
+cp -r ~/AviDots/.config/waybar/ ~/.config/waybar/
 echo "Installed!"
 
 echo "Installing foot config..."
@@ -30,7 +30,7 @@ cd .config/
 mkdir foot
 rm -rf foot/
 mkdir foot
-cp -r ~/avidots/.config/foot/ ~/.config/foot/
+cp -r ~/AviDots/.config/foot/ ~/.config/foot/
 echo "Installed!"
 
 echo "Installing woofi config..."
@@ -39,7 +39,7 @@ cd .config/
 mkdir woofi
 rm -rf woofi/
 mkdir woofi
-cp -r ~/avidots/.config/woofi/ ~/.config/woofi/
+cp -r ~/AviDots/.config/woofi/ ~/.config/woofi/
 echo "Installed!"
 
 echo "Installing hyprland configs..."
@@ -48,7 +48,7 @@ cd .config/
 mkdir hypr
 rm -rf hypr/
 mkdir hypr
-cp -r ~/avidots/.config/hypr/ ~/.config/hypr/
+cp -r ~/AviDots/.config/hypr/ ~/.config/hypr/
 echo "Installed!"
 
 echo "Installing zsh..."
@@ -64,16 +64,16 @@ rm -rf .zshrc
 rm -rf .p10k.zsh
 rm -rf .oh-my-zsh
 
-cp ~/avidots/zsh/.zshrc ~/
-cp ~/avidots/zsh/.p10k.zsh ~/
-# cp -r ~/avidots/zsh/.oh-my-zsh ~/
+cp ~/AviDots/zsh/.zshrc ~/
+cp ~/AviDots/zsh/.p10k.zsh ~/
+# cp -r ~/AviDots/zsh/.oh-my-zsh ~/
 
 echo "Installed!"
 
 echo "Installing wallpapers..."
 cd ~
 
-cp -r ~/avidots/wallpapers/ ~/Pictures/
+cp -r ~/AviDots/wallpapers/ ~/Pictures/
 
 echo "Installed!"
 
