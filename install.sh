@@ -8,9 +8,10 @@ rm -rf yay
 echo "Yay installed!"
 
 echo "Some packages"
-sudo pacman -S zip 
+sudo pacman -S zip lsd
 sudo pacman -S telegram-desktop fastfetch 
 sudo pacman -S fortune-mod cowsay cava
+sudo pacman -S playerctl
 echo "Ended"
 
 echo "Dropping all files in their paths!"
